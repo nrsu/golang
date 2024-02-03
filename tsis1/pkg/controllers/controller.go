@@ -12,7 +12,7 @@ import (
 func HealthCheck(w http.ResponseWriter, r *http.Request) {
 	log.Println("entering health check end point")
 	w.WriteHeader(http.StatusOK)
-	fmt.Fprintf(w, "API is up and running")
+	fmt.Fprintf(w, "Author of this app is Tokenov Bekzhan. This app is to get the list of actors and actor details.")
 }
 
 func Actors(w http.ResponseWriter, r *http.Request) {
